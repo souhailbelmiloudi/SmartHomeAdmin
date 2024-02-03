@@ -4,22 +4,22 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/SmartHomeAdmin',
       name: 'listaUser',
       component: () => import('../components/ListaUser.vue')
     },
     {
-      path: '/user/:id',
+      path: '/SmartHomeAdmin/user/:id',
       name: 'UserPage',
       component: () => import('../components/UserPage.vue')
     },
     {
-      path: '/espacio/:id',
+      path: '/SmartHomeAdmin/espacio/:id',
       name: 'EspacioPage',
       component: () => import('../components/EspacioPage.vue')
     },
      {
-    path: '/detalle-dispositivo/:UserId/:espacioId/:tipo/:ideje',
+    path: '/SmartHomeAdmin/detalle-dispositivo/:UserId/:espacioId/:tipo/:ideje',
     name: 'DetalleDispositivo',
     component: () => import('../components/DetalleDispositivo.vue')
   },
