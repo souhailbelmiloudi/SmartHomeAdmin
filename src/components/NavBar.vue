@@ -8,7 +8,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-           <RouterLink to="/SmartHomeAdmin/" class="nav-link">Usuarios</RouterLink>
+           <RouterLink to="/" class="nav-link">Usuarios</RouterLink>
           </li>
         </ul>
       </div>
