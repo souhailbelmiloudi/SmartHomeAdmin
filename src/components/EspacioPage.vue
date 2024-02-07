@@ -31,7 +31,6 @@ const recuperarDatosEspacio = (datos) => {
 };
 
 const cambiarvalor = (sensor) => {
-
     const nuevoValor = prompt("Ingrese el nuevo valor del sensor", sensor.valor);
     if (nuevoValor) {
         sensor.valor = nuevoValor;
@@ -41,11 +40,6 @@ const cambiarvalor = (sensor) => {
     }
 
 };
-
-
-
-
-
 onMounted(() => {
     obtenerDatosDesdeURL();
     getDataChanged_document(tableEspacio, userId.value, recuperarDatosEspacio);

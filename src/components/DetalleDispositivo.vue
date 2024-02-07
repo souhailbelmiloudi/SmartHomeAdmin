@@ -95,14 +95,6 @@ onMounted(() => {
             </div>
             </div>
 
-
-          
-
-           
-    
-
-
-
 </div>
 
 
